@@ -1,0 +1,104 @@
+body{
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'VT323', monospace;
+    background-color: rgb(33,37,41);
+}
+
+/* side display */
+.custom_fixed{
+position: fixed;
+color:rgb(108,117,125);
+top: 15px;
+left: 0;
+padding-left: 5px;
+}
+
+
+.web_dev{
+    color: rgb(154,153,255);
+}
+
+.yellow{
+    color: rgb(206,196,105);
+}
+
+.contents{
+    border-left: 1px solid rgb(58, 63, 68);
+}
+
+.text_violet{
+    color: rgb(154,153,255);
+}
+
+/* Service */
+.hover_effect_1:hover{
+    background-color: rgb(206,196,105);
+}
+.hover_effect_2:hover{
+    background-color: rgb(154,153,255);
+}
+
+
+/* projects */
+.project{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* custom button */
+.custom_btn{
+    text-decoration: none;
+    background-color: rgb(154,153,255);
+    color: white;
+    padding: 15px 20px;
+}
+.custom_btn:hover{
+    background-color: rgb(123, 122, 204);
+    color: white;
+}
+
+/* contact form */
+.custom_form input[type=text]{
+    background-color: transparent;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(108,117,125);
+    padding: 20px 5px;
+    font-size: 20px;
+    color: rgb(154,153,255);
+}
+.custom_form textarea{
+    background-color: transparent;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(108,117,125);
+    padding: 20px 5px;
+    font-size: 20px;
+    color: rgb(154,153,255);
+}
+.custom_form textarea::placeholder, .custom_form input::placeholder{
+    color: rgb(154,153,255);
+}
+.custom_form textarea:focus, .custom_form input:focus{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(154,153,255);
+}
+
+form .custom_input_btn{
+    border: none;
+    background-color: rgb(154,153,255);
+    padding: 10px 0;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+form .custom_input_btn:hover{
+    background-color: rgb(123, 122, 204);
+    color: white;
+}
