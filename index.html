@@ -40,16 +40,16 @@
                 <div class="collapse navbar-collapse" id="navmenu">
                     <ul class="navbar-nav ms-auto fs-3 gap-3">
                         <li class="nav-item">
-                            <a href="#about" class="nav-link yellow">_About</a>
+                            <a href="#about" class="nav-link">_About</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#projects" class="nav-link yellow">_Projects</a>
+                            <a href="#projects" class="nav-link">_Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#service" class="nav-link yellow">_Service</a>
+                            <a href="#service" class="nav-link">_Service</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#contact" class="nav-link yellow">_Contact</a>
+                            <a href="#contact" class="nav-link">_Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -88,8 +88,14 @@
         <!-- hero -->
         <section>
             <div class="container">
+                    <!-- divider -->
+                    <section>
+                        <div class="container my-5 py-2 d-none d-lg-block">
+                        </div>
+                    </section>
+                <div></div>
                 <div class="row text-light mt-5 mb-sm-5">
-                    <di v class="col-md">
+                    <di v class="col-md-9">
                         <p class="fs-3">// Hi, I'm Jay Ar, A...</p>
                         <h1 class="mb-3">{"<span class="yellow">_full-stack web developer</span>"}</h1>
 
@@ -98,16 +104,15 @@
                         </p>
                         <a href="#contact" class="custom_btn">{Get In Touch}</a>
                     </di>
-                    <div class="col-md d-none d-lg-block">
+                    <!-- <div class="col-md d-none d-lg-block">
                         <img src="./img/undraw_feeling_proud_qne1.svg" alt="image" class="img-fluid">
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
     <!-- divider -->
         <section>
-            <div class="container my-5 py-5 d-none d-lg-block">
-                <!-- <i class="bi bi-arrow-down-short text-light"></i> -->
+            <div class="container my-5 py-4 d-none d-lg-block">
             </div>
         </section>
 
@@ -121,18 +126,18 @@
                         <h1 class="about-me">&lt;about_me&gt;</h1>
                     </div>
                     <div class="row mt-5 fs-4">
+                        <div class="col-md border-start ps-0 ps-sm-5 mb-5">
+                            <img src="./img/me.jpg" class="img-fluid" alt="">
+                        </div>
                         <div class="col-md border-end pe-0 pe-sm-5">
                             <p>A curious person with an Interest and Knowledge in computers, currently taking a bachelor's degree in Information Technology at AMA Computer College.
                             In 2013, my parents brought a desktop to our home, but we did not have internet at that time. My favorite programs were Microsoft Paint and Microsoft PowerPoint, as those were the programs I always used. Around 2015, my parents brought a laptop that introduced me to Encarta Kids. I started programming in 2021, and my first programming language was Python. Fast forward to 2022, I created an account on GitHub and started learning other programming languages like Javascript.
                             </p>
-                        </div>
-                        <div class="col-md border-start ps-0 ps-sm-5">
                             <h1>Tech Stack</h1>
                             <div class="row text-start">
                                 <div class="col-md text_violet">
                                     <p>==> _html</p>
                                     <p>==> _css</p>
-                                    <p>==> _javascript</p>
                                 </div>
                                 <div class="col-md text_violet">
                                     <p>==> _boorstrap</p>
@@ -140,7 +145,8 @@
                                 </div>
                                 <div class="col-md text_violet">
                                     <p>==> _react js</p>
-                                    <p>==> _node js</p>
+                                    <p>==> _javascript</p>
+                                    <!-- <p>==> _node js</p> -->
                                 </div>
                             </div>
                         </div>
@@ -150,11 +156,10 @@
         </section>
 
             <!-- divider -->
-            <section>
+            <!-- <section>
                 <div class="container my-5 py-5 d-none d-lg-block">
-                    <!-- <i class="bi bi-arrow-down-short text-light"></i> -->
                 </div>
-            </section>
+            </section> -->
 
 
             <!-- projects -->
@@ -164,25 +169,28 @@
                     <h1 class="text_violet">(!)</h1>
                     <h1>&lt;projects&gt;</h1>
                 </div>
-                <div class="row">
-                    <div class="col-md-6 text-light p-5">
-                        <div class="project card mb-3 bg-dark ">
-                            <img src="./img/Capstonegen.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">&lt;_Capstone Title Generator&gt;</h5>
-                              <p class="card-text yellow">/* The Capstone Title Generator generate a random title for capstone/thesis project for tech students. I know the struggle of those students who are having a hard time finding or making a unique title for their projects, so as a developer, I made this title generator to help them to find a unique title for their project. You can generate a random title by simply clicking the generate button and you can copy it by clicking the copy button. */</p>
-                            </div>
-                          </div>
+                <div>
+                    <!-- project-one -->
+                    <div class="project-one row my-5 p-5">
+                        <div class="col-md">
+                            <img src="./img/Capstonegen.png" class="img-fluid" alt="...">
+                        </div>
+                        <div class="col-md mt-4">
+                            <h1 class="card-title text_violet">&lt;_Capstone Title Generator&gt;</h1>
+                            <p class="card-text yellow">/* The Capstone Title Generator generate a random title for capstone/thesis project for tech students. I know the struggle of those students who are having a hard time finding or making a unique title for their projects, so as a developer, I made this title generator to help them to find a unique title for their project. You can generate a random title by simply clicking the generate button and you can copy it by clicking the copy button. */</p>
+                        </div>
                     </div>
-                    <div class="col-md-6 text-light p-5 ">
-                        <div class="project card mb-3 bg-dark ">
+                    <!-- project two -->
+                    <div class="project-two row my-5 p-5">
+                        <div class="col-md">
+                            <h1 class="card-title text_violet">&lt;_Freedom Wall&gt;</h1>
+                            <p class="card-text yellow pb-4"> /* This project I made is one of the platforms of our school organization, the COVID Party List. I started making this project back in December 2022 and till 2023 it's still in progress, It already has an admin side where you can monitor all the notes, Ip addresses, and reports. Using the Ip address of the user you can block them in this website, and once their IP is blocked they're no longer have a permission to post a notes. */</p>
+                        </div>
+                        <div class="col-md">
                             <img src="./img/Freedomwall.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">&lt;_Freedom Wall&gt;</h5>
-                              <p class="card-text yellow"> /* This project I made is one of the platforms of our school organization, the COVID Party List. I started making this project back in December 2022 and till 2023 it's still in progress, It already has an admin side where you can monitor all the notes, Ip addresses, and reports. Using the Ip address of the user you can block them in this website, and once their IP is blocked they're no longer have a permission to post a notes. */</p>
-                            </div>
-                          </div>
+                        </div>
                     </div>
+                    <!-- btn -->
                     <div class="text-light p-5 d-flex justify-content-center">
                         <a href="https://github.com/zizaaa" class="custom_btn">{Visit my github}</a>
                     </div>
@@ -237,10 +245,10 @@
                             <a href="#projects" class="nav-link yellow">_Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link yellow">_Service</a>
+                            <a href="#service" class="nav-link yellow">_Service</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link yellow">_Contact</a>
+                            <a href="#contact" class="nav-link yellow">_Contact</a>
                         </li>
                     </ul>
                 </div>
